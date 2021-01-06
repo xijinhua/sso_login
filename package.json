@@ -1,0 +1,53 @@
+{
+  "name": "sso_keycloak_login",
+  "version": "0.1.0",
+  "private": false,
+  "license": "MIT",
+  "author": "huahua_789",
+  "main": "lib/sso_login.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve --open --mode dev",
+    "lib": "vue-cli-service build --target lib --name sso_login --dest lib src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "core-js": "^3.6.5",
+    "jwt-decode": "^3.1.2",
+    "vue": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:xijinhua/sso_login.git"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "vue",
+    "sso",
+    "login"
+  ],
+  "homepage": "https://github.com/xijinhua/sso_login",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-plugin-import": "^1.13.0",
+    "compression-webpack-plugin": "^6.0.2",
+    "image-webpack-loader": "^7.0.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-bundle-analyzer": "^3.9.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
